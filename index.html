@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/script.js" defer></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+      <header class="header-main">
+        <div class="header-introduction">
+          <img
+            class="header-introduction-image"
+            src="images/image-jeremy.png"
+            alt="Icon image of Jeremy Robson"
+            width="234"
+            height="234"
+          />
+          <p class="header-introduction-paragraph">Report for</p>
+          <h1 class="header-introduction-heading">Jeremy Robson</h1>
+        </div>
+        <nav class="header-navigation" aria-label="time-period">
+          <ul class="header-navigation-list">
+            <li>
+              <button class="header-navigation-list-button" type="button">
+                Daily
+              </button>
+            </li>
+            <li>
+              <button class="header-navigation-list-button" type="button">
+                Weekly
+              </button>
+            </li>
+            <li>
+              <button class="header-navigation-list-button" type="button">
+                Monthly
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="card-section work-section">
+        <img
+          class="card-icon"
+          src="images/icon-work.svg"
+          alt=""
+          width="79"
+          height="79"
+        />
+        <div class="card-content">
+          <header class="card-section-header">
+            <h2 class="card-section-header-heading">Work</h2>
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                class="card-section-image"
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </header>
+          <div class="card-results">
+            <span class="results-current">5hrs</span>
+            <span class="results-previous">Previous - 7hrs</span>
+          </div>
+        </div>
+      </section>
+      <section class="card-section play-section">
+        <img
+          class="card-icon"
+          src="images/icon-play.svg"
+          alt=""
+          width="79"
+          height="79"
+        />
+        <div class="card-content">
+          <header class="card-section-header">
+            <h2 class="card-section-header-heading">Play</h2>
+            <img src="images/icon-ellipsis.svg" alt="" width="21" height="5" />
+          </header>
+          <div class="card-results">
+            <span class="results-current">5hrs</span>
+            <span class="results-previous">Previous - 7hrs</span>
+          </div>
+        </div>
+      </section>
+      <section class="card-section study-section">
+        <img
+          class="card-icon"
+          src="images/icon-study.svg"
+          alt=""
+          width="79"
+          height="79"
+        />
+        <div class="card-content">
+          <header class="card-section-header">
+            <h2 class="card-section-header-heading">Study</h2>
+            <img src="images/icon-ellipsis.svg" alt="" width="21" height="5" />
+          </header>
+          <div class="card-results">
+            <span class="results-current">5hrs</span>
+            <span class="results-previous">Previous - 7hrs</span>
+          </div>
+        </div>
+      </section>
+      <section class="card-section exercise-section">
+        <img
+          class="card-icon"
+          src="images/icon-exercise.svg"
+          alt=""
+          width="79"
+          height="79"
+        />
+        <div class="card-content">
+          <header class="card-section-header">
+            <h2 class="card-section-header-heading">Exercise</h2>
+            <img src="images/icon-ellipsis.svg" alt="" width="21" height="5" />
+          </header>
+          <div class="card-results">
+            <span class="results-current">5hrs</span>
+            <span class="results-previous">Previous - 7hrs</span>
+          </div>
+        </div>
+      </section>
+      <section class="card-section social-section">
+        <img
+          class="card-icon"
+          src="images/icon-social.svg"
+          alt=""
+          width="79"
+          height="79"
+        />
+        <div class="card-content">
+          <header class="card-section-header">
+            <h2 class="card-section-header-heading">Social</h2>
+            <img src="images/icon-ellipsis.svg" alt="" width="21" height="5" />
+          </header>
+          <div class="card-results">
+            <span class="results-current">5hrs</span>
+            <span class="results-previous">Previous - 7hrs</span>
+          </div>
+        </div>
+      </section>
+      <section class="card-section self-care-section">
+        <img
+          class="card-icon"
+          src="images/icon-self-care.svg"
+          alt=""
+          width="79"
+          height="79"
+        />
+        <div class="card-content">
+          <header class="card-section-header">
+            <h2 class="card-section-header-heading">Self Care</h2>
+            <img src="images/icon-ellipsis.svg" alt="" width="21" height="5" />
+          </header>
+          <div class="card-results">
+            <span class="results-current">5hrs</span>
+            <span class="results-previous">Previous - 7hrs</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
