@@ -1,10 +1,10 @@
 const buttons = document.querySelectorAll(".header-navigation-list-button");
 const cards = document.querySelectorAll(".card-section");
 
-if(buttons && cards) {
+if(buttons.length && cards.length) {
     fetch("/data.json").then((response) => {
     if(!response.ok) {
-        return console.log("JSON file not found!");
+        throw new Error("JSON file not found!");
     }
     return response.json();
     }).then((data) => {
@@ -17,6 +17,8 @@ if(buttons && cards) {
                 });
             });
         });
-    }); 
+    }).catch((error) => {
+        console.log(error);
+    });
 }
 

@@ -15,7 +15,6 @@ body {
 
 .card-content:hover {
     background-color: hsl(235, 46%, 30%);
-    cursor: pointer;
 }
 
 .card-icon {
@@ -34,7 +33,6 @@ body {
 
 .card-section-image:hover{
     fill: hsl(0, 0%, 100%);
-    cursor: pointer;
 }
 
 .card-section-header {
