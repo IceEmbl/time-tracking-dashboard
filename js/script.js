@@ -2,7 +2,7 @@ const buttons = document.querySelectorAll(".header-navigation-list-button");
 const cards = document.querySelectorAll(".card-section");
 
 if(buttons.length && cards.length) {
-    fetch("/data.json").then((response) => {
+    fetch("./data.json").then((response) => {
     if(!response.ok) {
         throw new Error("JSON file not found!");
     }
